@@ -8,8 +8,8 @@ function Title() {
              <div class="card">
                 <div class="card-body">
                    <img src={burger} className="menu-pic" alt="Picture of Menu" />
-                   <h5 class="title-header">Card title</h5>
-                   <p class="title-text">Some text to build on the card's content.</p>
+                   <h5 class="title-header">Bobs Burgers</h5>
+                   <p class="title-text"> Home of the Ranchero Burger</p>
                 </div>
              </div>
           </div>    

@@ -35,6 +35,7 @@ html {
 .menu-pic {
   height: 75vh;
   width: 50vw;
+  border-radius: 25px;
 }
 
 .title-header {
@@ -46,16 +47,86 @@ html {
 }
 
 .navbar {
-  margin-top: -10px;
   background-color: #F40102;
-  text-align: center;
 }
 
 .menubutton {
   padding-left: 23vw;
   font-size: 2.5vh;
 }
-@media only screen and (min-width: 640px;) {
-background-color: red;
+.nav-link {
+margin: 25px;
+ }
+ .navbar-nav {
+  margin-right: 50%;
+ }
 
+/* homepage font and text */
+.card-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 20px;
+  margin: 2px;
+}
+.card-title {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
+}
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 35px;
+}
+.nav-link {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 45px;
+  display: inline;
+}
+.title-header {
+  font-family: 'Pacifico', cursive;
+  font-size: 35px;
+}
+.title-text {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 25px;
+  padding-top: 5px;
+}
+
+
+
+ /* Media coding for mobile/ smaller screens */
+@media screen and (max-width: 400px) {
+  .menu-pic {
+    height: 40vh;
+    width: 80vw;
+  }
+  .title-header {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+
+  }
+  .title-text {
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 1px;
+}
+h2 {
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 30px;
+}
+h5 {
+font-family: 'Noto Sans', sans-serif;
+font-size: 20px;
+}
+.card-text {
+  font-family: 'Noto Sans', sans-serif;
+ font-size: 15px;
+}
+.logobb {
+  height: 20vh;
+  width: 30vh;
+
+}
+}
+div {
+  border: none;
 }

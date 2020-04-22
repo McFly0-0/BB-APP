@@ -2,7 +2,6 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'react-bootstrap-carousel/dist/bootstrap.min.css';
 import 'bootstrap/dist/css/bootstrap.css';
-import logo from './logo.svg';
 import './App.css';
 import Navbar from './components/Navbar';
 import Title from './components/Title';
